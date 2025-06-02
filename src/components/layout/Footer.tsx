@@ -83,8 +83,15 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Contact</h3>
             <p className="text-gray-600 dark:text-gray-400 mb-4 flex items-center">
-              <Mail size={18} className="mr-2" /> ksathyavardhanec@gmail.com
+              <Mail size={18} className="mr-2" />
+              <a
+                href="mailto:ksathyavardhanec@gmail.com"
+                className="hover:underline text-gray-600 dark:text-gray-400"
+              >
+                ksathyavardhanec@gmail.com
+              </a>
             </p>
+
             <p className="text-gray-600 dark:text-gray-400">
               Erode, Tamil Nadu, India
             </p>
@@ -93,8 +100,8 @@ const Footer = () => {
 
         <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-800">
           <p className="text-center text-gray-600 dark:text-gray-400 flex items-center justify-center">
-            © {year} Sathyavardhan K. All rights reserved. 
-            </p>
+            © {year} Sathyavardhan K. All rights reserved.
+          </p>
         </div>
 
       </div>
