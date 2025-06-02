@@ -160,7 +160,7 @@ const About = () => {
                 <div className="md:pl-8">
                   <div className="md:hidden absolute left-0 top-0 w-3 h-3 rounded-full bg-primary-500 transform -translate-x-1.5"></div>
                   <p className="text-gray-700 dark:text-gray-300">
-                    Completed Class 12 under the Tamil Nadu State Board with a 66.17% score in science stream.
+                    Completed Class 12 under the TamilNadu State Board with a 66.17% score in science stream.
                   </p>
                 </div>
               </motion.div>
@@ -182,7 +182,7 @@ const About = () => {
                 <div className="md:pl-8">
                   <div className="md:hidden absolute left-0 top-0 w-3 h-3 rounded-full bg-primary-500 transform -translate-x-1.5"></div>
                   <p className="text-gray-700 dark:text-gray-300">
-                    Completed SSLC under the Tamil Nadu State Board with an overall percentage of 87.0%.
+                    Completed SSLC under the TamilNadu State Board with an overall percentage of 87.0%.
                   </p>
                 </div>
               </motion.div>

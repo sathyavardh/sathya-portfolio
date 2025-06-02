@@ -117,7 +117,7 @@ const Footer = () => {
             </p>
 
             <p className="text-gray-600 dark:text-gray-400">
-              Erode, Tamil Nadu, India
+              Erode, TamilNadu, India
             </p>
           </div>
         </div>
