@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import { useState } from 'react';
 import { usePortfolio } from '../context/PortfolioContext';
 import Section from '../components/ui/Section';
 import ProjectCard from '../components/ui/ProjectCard';

@@ -1,5 +1,4 @@
-import React from 'react';
-import { Heart, Mail, Github, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Github, Linkedin } from "lucide-react";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -9,9 +8,12 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Portfolio</h3>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
+              Portfolio
+            </h3>
             <p className="text-gray-600 dark:text-gray-400 mb-4 max-w-xs">
-              A showcase of my work, skills, and professional journey in web development and design.
+              A showcase of my work, skills, and professional journey in web
+              development and design.
             </p>
             <div className="flex space-x-4">
               <a
@@ -45,35 +47,55 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
+              Quick Links
+            </h3>
             <ul className="space-y-2">
               <li>
-                <a href="/" className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300">
+                <a
+                  href="/"
+                  className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300"
+                >
                   Home
                 </a>
               </li>
               <li>
-                <a href="/about" className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300">
+                <a
+                  href="/about"
+                  className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300"
+                >
                   About
                 </a>
               </li>
               <li>
-                <a href="/skills" className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300">
+                <a
+                  href="/skills"
+                  className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300"
+                >
                   Skills
                 </a>
               </li>
               <li>
-                <a href="/experience" className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300">
+                <a
+                  href="/experience"
+                  className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300"
+                >
                   Experience
                 </a>
               </li>
               <li>
-                <a href="/projects" className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300">
+                <a
+                  href="/projects"
+                  className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300"
+                >
                   Projects
                 </a>
               </li>
               <li>
-                <a href="/contact" className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300">
+                <a
+                  href="/contact"
+                  className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300"
+                >
                   Contact
                 </a>
               </li>
@@ -81,7 +103,9 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Contact</h3>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
+              Contact
+            </h3>
             <p className="text-gray-600 dark:text-gray-400 mb-4 flex items-center">
               <Mail size={18} className="mr-2" />
               <a
@@ -103,7 +127,6 @@ const Footer = () => {
             © {year} Sathyavardhan K. All rights reserved.
           </p>
         </div>
-
       </div>
     </footer>
   );
