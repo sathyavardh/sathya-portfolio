@@ -66,7 +66,7 @@ const Experience = () => {
                       </div>
                       <div className="flex items-center text-gray-600 dark:text-gray-400">
                         <MapPin size={18} className="mr-2" />
-                        <span>Erode, TamilNadu, India</span>
+                        <span>Salem, TamilNadu, India</span>
                       </div>
                     </div>
 
