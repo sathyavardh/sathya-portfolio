@@ -58,7 +58,7 @@ const portfolioData: PortfolioContextType = {
       id: 1,
       company: 'GWC Data.ai',
       position: 'Associate Full-Stack Developer',
-      duration: 'July 2024 – May 2025',
+      duration: 'June 2024 – May 2025',
       description:
         'Worked on full-stack development involving complex data governance and learning management systems using modern web technologies and cloud platforms.',
       projects: [
