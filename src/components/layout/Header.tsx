@@ -158,14 +158,7 @@ const Header = () => {
               >
                 <Linkedin size={20} />
               </a>
-              <a 
-                href="https://twitter.com" 
-                target="_blank" 
-                rel="noreferrer"
-                className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300"
-              >
-                <Twitter size={20} />
-              </a>
+              
             </div>
           </div>
         </div>
