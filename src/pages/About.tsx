@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Download, Github, Mail } from 'lucide-react';
 import Section from '../components/ui/Section';
@@ -138,7 +137,7 @@ const About = () => {
                 <div className="md:pl-8">
                   <div className="md:hidden absolute left-0 top-0 w-3 h-3 rounded-full bg-primary-500 transform -translate-x-1.5"></div>
                   <p className="text-gray-700 dark:text-gray-300">
-                    Graduated with a CGPA of 8.49. Developed strong foundations in software development and embedded systems, contributing to both academic and self-initiated projects in web development.
+                    Graduated with a CGPA of 8.48. Developed strong foundations in software development and embedded systems, contributing to both academic and self-initiated projects in web development.
                   </p>
                 </div>
               </motion.div>
