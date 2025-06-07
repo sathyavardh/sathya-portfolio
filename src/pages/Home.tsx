@@ -98,7 +98,6 @@ const Home = () => {
             <div className="absolute inset-0 bg-gradient-to-tr from-primary-600/20 to-transparent rounded-2xl"></div>
           </motion.div>
         </div>
-
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 hidden md:block">
           <motion.div 
             animate={{ y: [0, 10, 0] }} 
